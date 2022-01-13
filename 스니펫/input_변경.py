@@ -6,5 +6,6 @@ sys.stdin.readline은 프롬프트 메시지를 파라미터로 받지 않으며
 import sys
 input = sys.stdin.readline
 # 한 줄에 하나만 받을 때는 rstrip을 사용해서 개행 문자를 제거해야한다.
+input.rstrip()
 # 한 줄에 하나의 숫자만 받을 때는 그냥 받으면 된다.
 # 한 줄에 여러 값을 입력 받을 때에는 split으로 똑같이 처리해주면 된다. 
