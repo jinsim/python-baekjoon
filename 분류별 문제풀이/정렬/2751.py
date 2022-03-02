@@ -4,6 +4,6 @@ input = sys.stdin.readline
 
 l = []
 for _ in range(int(input())):
-    l.append(int(input().rstrip()))
+    l.append(int(input()))
 l.sort()
 print(*l, sep='\n')

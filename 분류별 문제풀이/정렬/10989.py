@@ -4,7 +4,7 @@ input = sys.stdin.readline
 
 l = [0]*10001
 for _ in range(int(input())):
-    l[int(input().rstrip())] += 1
+    l[int(input())] += 1
 
 for i in range(10001):
     for _ in range(l[i]):
