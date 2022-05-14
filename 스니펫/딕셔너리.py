@@ -8,4 +8,10 @@ sorted(d)
 # 키만 빼서 정렬. 리스트로 반환
 ['app', 'apple', 'blue', 'car', 'string']
 
+sorted(d.items(), key=lambda x: x[1], reverse=True)
+# == sorted(d.items(), key=lambda x: -x[1])
+# 값 기준 내림차순 정렬
+[('app', 123), ('car', 99), ('blue', 87), ('string', 33), ('apple', 3)]
 
+sorted(d.items(), key=lambda x: (x[1], x[0]))
+# 두번째 인자 기준 정렬 후 첫번째 인자 기준 정렬
