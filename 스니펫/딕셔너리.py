@@ -9,7 +9,7 @@ sorted(d)
 ['app', 'apple', 'blue', 'car', 'string']
 
 sorted(d.items(), key=lambda x: x[1], reverse=True)
-# == sorted(d.items(), key=lambda x: -x[1])
+# == sorted(d.items(), key=lambda x: -x[1]) 숫자만 가능
 # 값 기준 내림차순 정렬
 [('app', 123), ('car', 99), ('blue', 87), ('string', 33), ('apple', 3)]
 
