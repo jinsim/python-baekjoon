@@ -15,3 +15,9 @@ sorted(d.items(), key=lambda x: x[1], reverse=True)
 
 sorted(d.items(), key=lambda x: (x[1], x[0]))
 # 두번째 인자 기준 정렬 후 첫번째 인자 기준 정렬
+[('apple', 3), ('string', 33), ('blue', 87), ('car', 99), ('app', 123)]
+
+list(d)
+# 키 값만 빼서 리스트로 반환
+['apple', 'car', 'blue', 'string', 'app']
+
