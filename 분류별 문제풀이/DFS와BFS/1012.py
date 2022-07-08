@@ -1,5 +1,5 @@
 # 유기농 배추
-# 인접한 노드 묶음의 개수를 구하면 된다. 쉽게 풀 수 있다.
+# 연결 요소(Connected Component)를 구하면 된다. 쉽게 풀 수 있다.
 
 import sys
 sys.setrecursionlimit(10**6)

@@ -1,5 +1,5 @@
 # DFS와 BFS
-# DFS, BFS에 대한 이해를 볼 수 있는 문제
+# DFS, BFS 구현하기
 
 """
 graph를 defaultdict으로 구현했을 때 => graph를 이중 리스트로 구현했을 때 차이 없음.
