@@ -4,6 +4,10 @@ input은 사용자에게 입력을 받아서 문자열로 변환하고 개행문
 sys.stdin.readline은 프롬프트 메시지를 파라미터로 받지 않으며, 개행문자를 포함하여 반환하므로 좀 더 빠르다.
 """
 import sys
+
+#표준입력을 파일로 설정
+sys.stdin = open("../../input.txt","r")
+
 input = sys.stdin.readline
 # 한 줄에 하나만 받을 때는 rstrip을 사용해서 개행 문자를 제거해야한다.
 input.rstrip()

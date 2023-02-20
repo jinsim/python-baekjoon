@@ -12,4 +12,3 @@ while start < N-K:
     ret = max(ret, s_sum)
 print(ret)
 
-
