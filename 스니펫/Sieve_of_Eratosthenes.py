@@ -9,10 +9,10 @@
 
 소수의 개수는 sum을 이용하면 편리하다. 
 """
-from math import sqrt
-num = 10000
-prime = [0, 0]+[1]*(num-1)
-for i in range(2, int(sqrt(2*num))+1):
-    if prime[i]:
-        for j in range(i*2, num+1, i):
-            prime[j] = 0
+    from math import sqrt
+    num = 10000
+    prime = [0, 0]+[1]*(num-1)
+    for i in range(2, int(sqrt(num))+1):
+        if prime[i]:
+            for j in range(i*2, num+1, i):
+                prime[j] = 0
